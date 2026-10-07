@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepshikha Malav - Salesforce Consultant</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Styles -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .bg-salesforce {
+            background-color: #00a1e0;
+        }
+        .text-salesforce {
+            color: #00a1e0;
+        }
+        .border-salesforce {
+            border-color: #00a1e0;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- Navigation Header -->
+    <nav class="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-50 transition-all">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="#" class="font-bold text-xl tracking-tight text-slate-900">
+                    DEEPSHIKHA<span class="text-salesforce">.MALAV</span>
+                </a>
+                <div class="hidden md:flex space-x-8 font-medium text-sm text-slate-600">
+                    <a href="#about" class="hover:text-salesforce transition-colors">About</a>
+                    <a href="#certifications" class="hover:text-salesforce transition-colors">Certifications</a>
+                    <a href="#skills" class="hover:text-salesforce transition-colors">Skills</a>
+                    <a href="#experience" class="hover:text-salesforce transition-colors">Experience</a>
+                    <a href="#education" class="hover:text-salesforce transition-colors">Education</a>
+                    <a href="#contact" class="hover:text-salesforce transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero / About Section -->
+    <section id="about" class="pt-28 pb-16 md:pt-36 md:pb-24 bg-gradient-to-b from-blue-50/50 to-slate-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center gap-10 lg:gap-16">
+                <!-- Profile Image -->
+                <div class="w-48 h-48 md:w-64 md:h-64 flex-shrink-0 relative">
+                    <div class="w-full h-full rounded-full overflow-hidden border-4 border-white shadow-xl">
+                        <!-- Add profile picture if available, fallback SVG -->
+                        <img src="profile.jpg" alt="Deepshikha Malav" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=Deepshikha+Malav&size=256&background=00a1e0&color=fff';">
+                    </div>
+                    <div class="absolute bottom-2 right-2 bg-salesforce text-white p-2 rounded-full shadow-lg" title="Salesforce Consultant">
+                        <i class="fa-solid fa-cloud text-xl"></i>
+                    </div>
+                </div>
+
+                <!-- Intro Text -->
+                <div class="flex-1 text-center md:text-left">
+                    <span class="inline-block px-3 py-1 bg-sky-100 text-sky-800 text-xs font-semibold rounded-full uppercase tracking-wider mb-3">Salesforce Consultant</span>
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight mb-4">
+                        Deepshikha Malav
+                    </h1>
+                    <p class="text-lg text-slate-600 leading-relaxed mb-6">
+                        Salesforce Consultant with hands-on experience delivering end-to-end CRM solutions in an Agile environment. Skilled in requirements gathering, translating business needs into user stories, and configuring Salesforce (Flows, Security, Reports, Lightning Apps) with AI coding tools to accelerate deployment.
+                    </p>
+                    
+                    <!-- Quick Badges -->
+                    <div class="flex flex-wrap justify-center md:justify-start gap-3 mb-6 text-sm text-slate-600">
+                        <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-white border border-slate-200 rounded-lg shadow-sm">
+                            <i class="fa-solid fa-location-dot text-slate-400"></i> Frankfurt am Main, Germany
+                        </span>
+                        <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-white border border-slate-200 rounded-lg shadow-sm">
+                            <i class="fa-solid fa-language text-slate-400"></i> English (C1) & German (B2)
+                        </span>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                        <a href="#contact" class="px-6 py-3 bg-salesforce hover:bg-sky-600 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all">
+                            Get in Touch
+                        </a>
+                        <a href="https://linkedin.com/in/deepshikha-malav" target="_blank" rel="noopener noreferrer" class="px-6 py-3 bg-white hover:bg-slate-100 text-slate-700 font-medium rounded-lg border border-slate-200 shadow-sm transition-all flex items-center gap-2">
+                            <i class="fa-brands fa-linkedin text-blue-600"></i> LinkedIn Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900">Salesforce Certifications</h2>
+                <p class="text-slate-500 mt-2">Verified expertise across Salesforce ecosystem</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Cert 1 -->
+                <div class="p-6 rounded-xl bg-slate-50 border border-slate-100 shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center">
+                    <div class="w-14 h-14 bg-sky-100 text-salesforce rounded-full flex items-center justify-center text-2xl mb-4">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-800 text-lg">Sales Cloud Consultant</h3>
+                </div>
+
+                <!-- Cert 2 -->
+                <div class="p-6 rounded-xl bg-slate-50 border border-slate-100 shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center">
+                    <div class="w-14 h-14 bg-sky-100 text-salesforce rounded-full flex items-center justify-center text-2xl mb-4">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-800 text-lg">Agentforce Specialist</h3>
+                </div>
+
+                <!-- Cert 3 -->
+                <div class="p-6 rounded-xl bg-slate-50 border border-slate-100 shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center">
+                    <div class="w-14 h-14 bg-sky-100 text-salesforce rounded-full flex items-center justify-center text-2xl mb-4">
+                        <i class="fa-solid fa-user-gear"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-800 text-lg">Administrator</h3>
+                </div>
+
+                <!-- Cert 4 -->
+                <div class="p-6 rounded-xl bg-slate-50 border border-slate-100 shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center">
+                    <div class="w-14 h-14 bg-sky-100 text-salesforce rounded-full flex items-center justify-center text-2xl mb-4">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-800 text-lg">Business Analyst</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900">Skills & Expertise</h2>
+                <p class="text-slate-500 mt-2">Core technical competencies and professional capabilities</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Technical Skills -->
+                <div class="bg-white p-8 rounded-xl border border-slate-200/80 shadow-sm">
+                    <h3 class="text-xl font-bold text-slate-800 mb-6 flex items-center gap-2">
+                        <i class="fa-solid fa-code text-salesforce"></i> Technical Skills
+                    </h3>
+                    <ul class="space-y-3 text-slate-600 text-sm">
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                            <span><strong>AI-Assisted Development & Deployment:</strong> VS Code, Claude Code, Salesforce CLI, AI Coding Agents</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                            <span><strong>Automation:</strong> Flows, Approvals, Validations, Formulas, Assignment Rules</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                            <span><strong>User & Security Management:</strong> Profiles, Roles, Permission Sets, Sharing Rules, OWD, Field-Level Security</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                            <span><strong>Data Management:</strong> Import/Export, Data Loader, Deduplication, Data Validation</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                            <span><strong>Customization & Analytics:</strong> Objects, Fields, Layouts, Record Types, Lightning Apps, Custom Reports & Dashboards</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                            <span><strong>Release & Integration:</strong> Sandbox Deployments, AppExchange Apps, Basic Integrations</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Professional Skills -->
+                <div class="bg-white p-8 rounded-xl border border-slate-200/80 shadow-sm">
+                    <h3 class="text-xl font-bold text-slate-800 mb-6 flex items-center gap-2">
+                        <i class="fa-solid fa-briefcase text-salesforce"></i> Professional Skills
+                    </h3>
+                    <ul class="space-y-3 text-slate-600 text-sm">
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                            <span><strong>Requirements Gathering & Stakeholder Communication:</strong> Business process mapping and user story translation</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                            <span><strong>Agile / Scrum Collaboration:</strong> Sprint Planning, Backlog Grooming, Jira, Confluence</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                            <span><strong>User Adoption & Training:</strong> Key user & admin training, technical documentation, UAT execution</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                            <span><strong>Analytical Problem Solving:</strong> Business process optimization & Six Sigma/Lean methodology</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                            <span><strong>Collaboration Tools:</strong> MS 365, Google Workspace, Slack</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900">Work Experience</h2>
+                <p class="text-slate-500 mt-2">Proven track record in CRM implementations & operational excellence</p>
+            </div>
+
+            <div class="space-y-8 relative before:absolute before:inset-0 before:left-3 md:before:left-1/2 before:-ml-px before:w-0.5 before:bg-slate-200">
+                
+                <!-- Role 1 -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-7 h-7 rounded-full bg-salesforce text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                        <i class="fa-solid fa-briefcase text-xs"></i>
+                    </div>
+                    <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2rem)] bg-slate-50 p-6 rounded-xl border border-slate-200 shadow-sm">
+                        <div class="flex justify-between items-start mb-2">
+                            <div>
+                                <h3 class="font-bold text-slate-900 text-lg">Salesforce Consultant</h3>
+                                <p class="text-salesforce font-medium text-sm">IBS Technology | Frankfurt am Main, Germany</p>
+                            </div>
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-sky-100 text-sky-800 rounded-md">09/2025 - Present</span>
+                        </div>
+                        <ul class="list-disc list-inside space-y-1 text-slate-600 text-sm leading-relaxed">
+                            <li>Gather & translate business requirements into user stories and scalable Salesforce solutions.</li>
+                            <li>Deploy IBS Technology in-house products (Baucore, SalesExt, SpecifiQ) across concurrent clients.</li>
+                            <li>Configure Flows, security, objects, automation, reports & dashboards.</li>
+                            <li>Plan and execute data migration strategies (legacy systems to Salesforce) and API-based integrations.</li>
+                            <li>Manage project delivery via Agile Scrum across Germany, UK, and US clients.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Role 2 -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-7 h-7 rounded-full bg-slate-400 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                        <i class="fa-solid fa-briefcase text-xs"></i>
+                    </div>
+                    <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2rem)] bg-slate-50 p-6 rounded-xl border border-slate-200 shadow-sm">
+                        <div class="flex justify-between items-start mb-2">
+                            <div>
+                                <h3 class="font-bold text-slate-900 text-lg">Learning Strategist</h3>
+                                <p class="text-slate-600 font-medium text-sm">Kiwings Services Pvt Ltd | Bangalore</p>
+                            </div>
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-slate-200 text-slate-700 rounded-md">01/2017 - 10/2019</span>
+                        </div>
+                        <ul class="list-disc list-inside space-y-1 text-slate-600 text-sm leading-relaxed">
+                            <li>Identified business problems and skill gaps to design targeted learning strategies.</li>
+                            <li>Created and delivered 30+ training programs focused on customer engagement and process efficiency.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Role 3 -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-7 h-7 rounded-full bg-slate-400 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                        <i class="fa-solid fa-briefcase text-xs"></i>
+                    </div>
+                    <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2rem)] bg-slate-50 p-6 rounded-xl border border-slate-200 shadow-sm">
+                        <div class="flex justify-between items-start mb-2">
+                            <div>
+                                <h3 class="font-bold text-slate-900 text-lg">Manager - Business Excellence</h3>
+                                <p class="text-slate-600 font-medium text-sm">Madura Fashion and Lifestyle (MFL) | Bangalore</p>
+                            </div>
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-slate-200 text-slate-700 rounded-md">11/2010 - 01/2016</span>
+                        </div>
+                        <ul class="list-disc list-inside space-y-1 text-slate-600 text-sm leading-relaxed">
+                            <li>Conceptualized Brands Competition Mapping & KPI tracking system.</li>
+                            <li>Optimized workflows across 14+ major functions and defined 35+ key Control & Result KPIs.</li>
+                            <li>Implemented a Business Excellence Framework across 10+ organizational functions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Role 4 -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-7 h-7 rounded-full bg-slate-400 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                        <i class="fa-solid fa-briefcase text-xs"></i>
+                    </div>
+                    <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2rem)] bg-slate-50 p-6 rounded-xl border border-slate-200 shadow-sm">
+                        <div class="flex justify-between items-start mb-2">
+                            <div>
+                                <h3 class="font-bold text-slate-900 text-lg">Internal Lean Consultant</h3>
+                                <p class="text-slate-600 font-medium text-sm">Gokaldas Exports | Bangalore</p>
+                            </div>
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-slate-200 text-slate-700 rounded-md">05/2009 - 10/2010</span>
+                        </div>
+                        <ul class="list-disc list-inside space-y-1 text-slate-600 text-sm leading-relaxed">
+                            <li>Led 40+ Kaizen projects for process improvement and cost reduction.</li>
+                            <li>Trained over 250 workers in Six Sigma and Lean methodologies.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Interests -->
+    <section id="education" class="py-16 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Education -->
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                        <i class="fa-solid fa-graduation-cap text-salesforce"></i> Education
+                    </h2>
+                    <div class="space-y-4">
+                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                            <span class="text-xs font-semibold text-salesforce">10/2024 - 08/2025</span>
+                            <h3 class="font-bold text-slate-800 text-base">Salesforce Consultant Training</h3>
+                            <p class="text-slate-600 text-sm">Digital Career Institute DCI GmbH, Berlin</p>
+                            <p class="text-xs text-slate-500 mt-2">Full-time 10 months intensive training in Salesforce setup, automations, security, and analytics.</p>
+                        </div>
+                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                            <span class="text-xs font-semibold text-salesforce">08/2019 - 02/2021</span>
+                            <h3 class="font-bold text-slate-800 text-base">German Language Course (B1/B2)</h3>
+                            <p class="text-slate-600 text-sm">Volkshochschule (VHS), Berlin</p>
+                        </div>
+                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                            <span class="text-xs font-semibold text-salesforce">06/2007 - 02/2009</span>
+                            <h3 class="font-bold text-slate-800 text-base">M.Tech</h3>
+                            <p class="text-slate-600 text-sm">National Institute of Fashion Technology, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Personal Interests -->
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                        <i class="fa-solid fa-heart text-salesforce"></i> Personal Interests
+                    </h2>
+                    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-4">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-lg bg-sky-50 text-salesforce flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-sm">Business Process Optimization</h4>
+                                <p class="text-xs text-slate-500">Continuous improvement and workflow efficiency</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-lg bg-sky-50 text-salesforce flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-hands-holding-child"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-sm">Volunteering and Mentoring</h4>
+                                <p class="text-xs text-slate-500">Empowering individuals and knowledge sharing</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-lg bg-sky-50 text-salesforce flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-person-dots-from-line"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-sm">Fitness & Sports</h4>
+                                <p class="text-xs text-slate-500">Meditation and playing badminton</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-lg bg-sky-50 text-salesforce flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-utensils"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-sm">Cooking Experiments</h4>
+                                <p class="text-xs text-slate-500">Exploring culinary creative recipes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-slate-900 text-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold">Get In Touch</h2>
+                <p class="text-slate-400 mt-2">Feel free to connect for collaborations or opportunities</p>
+            </div>
+
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+                <!-- Phone -->
+                <a href="tel:01793728497" class="flex items-center gap-4 p-4 bg-slate-800 rounded-xl hover:bg-slate-700 transition-colors w-full md:w-auto min-w-[240px]">
+                    <div class="w-12 h-12 rounded-lg bg-salesforce/20 text-salesforce flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div>
+                        <span class="block text-xs text-slate-400 uppercase font-semibold">Phone</span>
+                        <span class="text-sm font-medium">0179 3728497</span>
+                    </div>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:deeps.malav@gmail.com" class="flex items-center gap-4 p-4 bg-slate-800 rounded-xl hover:bg-slate-700 transition-colors w-full md:w-auto min-w-[240px]">
+                    <div class="w-12 h-12 rounded-lg bg-salesforce/20 text-salesforce flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div>
+                        <span class="block text-xs text-slate-400 uppercase font-semibold">Email</span>
+                        <span class="text-sm font-medium">deeps.malav@gmail.com</span>
+                    </div>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://linkedin.com/in/deepshikha-malav" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4 p-4 bg-slate-800 rounded-xl hover:bg-slate-700 transition-colors w-full md:w-auto min-w-[240px]">
+                    <div class="w-12 h-12 rounded-lg bg-salesforce/20 text-salesforce flex items-center justify-center text-xl">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div>
+                        <span class="block text-xs text-slate-400 uppercase font-semibold">LinkedIn</span>
+                        <span class="text-sm font-medium">deepshikha-malav</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-slate-950 text-slate-500 text-center text-sm border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4">
+            <p>© <script>document.write(new Date().getFullYear())</script> Deepshikha Malav. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
